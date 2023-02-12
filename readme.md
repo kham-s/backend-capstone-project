@@ -5,6 +5,12 @@ Please update settings.py database credentials or create a mysql user with the f
 USER : 'admindjango'
 PASSWORD : 'employee@123!'
 
+Using pipenv recreate the project environment:
+    pipenv install
+    pipenv shell
+    python manage.py migrate
+    python manage.py runserver
+
 ## Create an account
 Create an account by posting username and password to the following api endpoint:
 http://localhost:8000/auth/users/ (POST)
