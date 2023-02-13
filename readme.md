@@ -23,6 +23,9 @@ Here is a sample payload:
 Login by posting username and password to the following api endpoint:
 http://localhost:8000/auth/token/login (POST)
 
+or to:
+http://localhost/api-auth-token (POST)
+
 For example, with the previously created user the payload would be:
 
     {"username": "some_username", "password": "user_password"}
